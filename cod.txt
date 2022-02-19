@@ -1,0 +1,98 @@
+=====================================================================
+CODE Number 1
+=====================================================================
+
+another Function:
+function KeepClicking(){
+console.log("Clicking");
+document.querySelector("colab-connect-button").click()
+}
+setInterval(KeepClicking,60000)
+
+=====================================================================
+
+
+=====================================================================
+CODE Number 2
+=====================================================================
+
+function ClickConnect() {
+  console.log('Working')
+  document
+    .querySelector('#top-toolbar > colab-connect-button')
+    .shadowRoot.querySelector('#connect')
+    .click()
+}
+intervalTiming = setInterval(ClickConnect, 60000)
+
+======================================================================
+
+
+======================================================================
+CODE Number 3
+======================================================================
+
+function ClickConnect(){
+  console.log('Working');
+  document.querySelector('colab-toolbar-button#toolbar-add-text').click();
+}
+intervalTiming = setInterval(ClickConnect, 60000);
+
+=======================================================================
+
+
+=======================================================================
+CODE Number 4
+=======================================================================
+
+function ClickConnect(){
+   try{
+    
+    document.querySelector("colab-connect-button").click()
+    console.log("working.........."); 
+    }
+    catch(err) {
+          console.log(err)
+          console.log("Error.......")
+   }
+}
+
+=====================================================================
+
+
+====================================================================
+CODE Number 5
+====================================================================
+
+function ClickConnect(){
+    console.log("Working"); 
+    document.querySelector("colab-toolbar-button").click() 
+}
+setInterval(ClickConnect,60000
+
+===================================================================
+
+
+===================================================================
+CODE Number 6
+===================================================================
+
+function ConnectButton(){
+    console.log("Working"); 
+    document.querySelector("#connect").click() 
+}
+setInterval(ConnectButton,60000);
+
+==================================================================
+
+
+==================================================================
+CODE Number 7
+==================================================================
+
+function ClickConnect(){
+  console.log("Connnect Clicked - Start"); 
+  document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click();
+  console.log("Connnect Clicked - End"); 
+};
+setInterval(ClickConnect, 60000)
