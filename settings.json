@@ -19,7 +19,7 @@
     },
     "Stopwin": {
         "On Profit": "True",
-        "If Maxbet": "0.01",
+        "If Maxbet": "2",
         "If Balance Drop (%)": "0",
         "After LS": "0"
     },
