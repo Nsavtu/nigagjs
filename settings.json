@@ -7,7 +7,7 @@
     "Play Game": {
         "Mode": "dice",
         "Demo Mode": "OFF",
-        "Currency": "GEM",
+        "Currency": "TRX",
         "Show Price": "ON",
         "Delay Bet(ms)": "0"
     },
@@ -19,7 +19,7 @@
     },
     "Stopwin": {
         "On Profit": "True",
-        "If Maxbet": "2",
+        "If Maxbet": "0.01",
         "If Balance Drop (%)": "0",
         "After LS": "0"
     },
@@ -458,8 +458,8 @@
                         "Divider": "100000",
                         "Recalculate on Play": "True"
                     },
-                    "If Win": "1.1",
-                    "If Lose": "1.1",
+                    "If Win": "1.15",
+                    "If Lose": "1.05",
                     "Reset if profit": "0.000001",
                     "Reset if win": "0",
                     "Reset if lose": "0",
@@ -473,7 +473,7 @@
                         "Win Streak": "0",
                         "Lose Streak": "0",
                         "After Profit": "0.00005",
-                        "Next Win After Bet": "30"
+                        "Next Win After Bet": "0"
                     }
                 }
             ]
