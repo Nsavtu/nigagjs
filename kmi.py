@@ -21,3 +21,4 @@ driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH , chrome_options=opt
 
 filename = 'file:///'+os.getcwd()+'/' + 'ai2.html'
 driver.get(filename)
+time.sleep(3747)
