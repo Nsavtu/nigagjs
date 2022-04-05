@@ -24,4 +24,4 @@ for i in range(languages):
     filename = 'file:///'+os.getcwd()+'/' + 'ai2.html'
     driver.get(filename)
     time.sleep(6)
-time.sleep(7506)
+time.sleep(18000)
